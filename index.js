@@ -7,7 +7,7 @@ const generateMkdwn = require("./utils/generateMarkdown.js")
 
 // TODO: Create an array of questions for user input
 const questions = [
-    //User contact information
+    //User information
     {
         type: "input",
         name: "username",
@@ -61,7 +61,7 @@ const questions = [
     {
         type: "input",
         name: "contributors",
-        message: "If you have any, please list any contributors and links to their Github profiles"
+        message: "If you have any, please list any contributor's github usernames"
     },
     {
         type: "input",

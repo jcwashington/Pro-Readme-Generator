@@ -43,8 +43,70 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+
+  ## Description
+  ${data.description}
+
+  Technologies Utilized:
+  ${data.tech-used}
+  Challenges and Future Developement Opportunities:
+  ${data.challenges}
+
+  ## Contents
+
+  1. [Installation](#installation)
+  2. [Project Usage](#usage)
+  3. [Licenses](#licenses)
+  4. [Testing](#testing)
+  5. [How to contribute](#contributing)
+  6. [Project Credits](#credits)
+    1. Authors
+    2. Additional Acknowledgements
+  7. [Have Questions?](#questions)
+
+  ## [Installation](#installation)
+  ${data.installation}
+
+  To clone this repo:
+    ${data.clone}
+
+  ## [Project Usage](#usage)
+  ${data.usage}
+
+  ## [Licenses](#licenses)
+  This project uses the ${data.license} license.
+
+  To find out more information on open source licenses, please refer to [https://choosealicense.com/](https://choosealicense.com/).
+
+  ## [Testing](#testing)
+  ${data.tests}
+
+  ## [How to contribute](#contributing)
+  If you would like to contribute to this project, follow the steps below.
+    1. Fork the repo on GitHub.
+    2. Clone the project to your own machine.
+    3. Create a branch for your feature work.
+    3. Commit changes to your own branch.
+    4. Push your work back up to your fork.
+    5. Submit a Pull request so that we can review your changes
+
+  ## [Project Credits](#credits)
+
+  Project Authors:
+  [!${data.username}](https://github.com/${data.username})
+  as well as: ${data.contributors}
+
+  External Assets:
+  ${data.external-assets}
+
+  ## [Have Questions?](#questions)
+  Contact the author with your questions:
+    *GitHub Username: ${data.username}
+    *GitHub Email: ${data.email}
 `;
 }
 
