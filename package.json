@@ -1,14 +1,26 @@
 {
-  "name": "static-site",
+  "name": "pro-readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "This CLI tool will help the user to generate a good, professional looking README file to use in their github repos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jasmine C Washington",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcwashington/Pro-Readme-Generator.git"
+  },
+  "keywords": [
+    "javascript",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/jcwashington/Pro-Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/jcwashington/Pro-Readme-Generator#readme"
 }
