@@ -46,7 +46,7 @@
 
   
   ## [Project Usage](#usage)
-  Simply enter your criteria in the CLI to generate your README file. Below see a gif of the functionality. A full video can be found in the assets folder:
+  Simply enter your criteria in the CLI to generate your README file. Below see a gif of the functionality. A full video can be found [here](https://drive.google.com/file/d/1fJx5ibAr0VvT71bGGA9s4BMJ_h5xl0X4/view?usp=sharing)]:
   
   ![README generator](assets/READMEgeneration.gif)
  
