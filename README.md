@@ -47,8 +47,8 @@
   
   ## [Project Usage](#usage)
   Simply enter your criteria in the CLI to generate your README file. Below see a video of the functionality:
-
-    ![README generator](assets/READMEgeneration.mov)
+  
+  ![README generator](assets/READMEgeneration.mov)
  
 
 
