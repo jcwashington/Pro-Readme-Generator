@@ -48,7 +48,7 @@
   ## [Project Usage](#usage)
   Simply enter your criteria in the CLI to generate your README file. Below see a video of the functionality:
 
-    ![README generator]()
+    ![README generator](assets/READMEgeneration.mov)
  
 
 
@@ -78,9 +78,9 @@
 
   External Assets:
   - [Inquirer package](https://www.npmjs.com/package/inquirer)
-  - [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+  -[Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
   ## [Have Questions?](#questions)
   Contact the author with your questions:
-    *GitHub Username: jcwashington
-    *GitHub Email: jasmine.washington412@gmail.com
+  * GitHub Username: jcwashington
+  * Contact Email: jasmine.washington412@gmail.com
