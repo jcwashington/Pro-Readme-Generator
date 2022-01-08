@@ -52,7 +52,7 @@ function generateMarkdown(data) {
   ${data.description}
 
   Technologies Utilized:
-  ${data.tech-used}
+  ${data.techUsed}
   Challenges and Future Developement Opportunities:
   ${data.challenges}
 
@@ -98,10 +98,10 @@ function generateMarkdown(data) {
 
   Project Authors:
   [!${data.username}](https://github.com/${data.username})
-  as well as: ${data.contributors}
+  Additional Contributors if any: ${data.contributors}
 
   External Assets:
-  ${data.external-assets}
+  ${data.externalAssets}
 
   ## [Have Questions?](#questions)
   Contact the author with your questions:

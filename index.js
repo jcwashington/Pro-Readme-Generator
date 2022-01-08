@@ -2,7 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-const generateMkdwn = require("./utils/generateMarkdown.js")
+const generateMkdwn = require("./utils/generateMarkdown")
 
 
 // TODO: Create an array of questions for user input
@@ -32,7 +32,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "tech-used",
+        name: "techUsed",
         message: "What technologies did you utilize?"
     },
     {
@@ -61,11 +61,11 @@ const questions = [
     {
         type: "input",
         name: "contributors",
-        message: "If you have any, please list any contributor's github usernames"
+        message: "If you have any, please list any contributor's github usernames separated by commas"
     },
     {
         type: "input",
-        name: "external-assets",
+        name: "externalAssets",
         message: "List any additional third-party assets or tutorials you utilized"
     },
     //Project License
@@ -86,10 +86,16 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => 
+    err ? console.error(err) : console.log('Successfully created your README'))
+}
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then((answers) =>
+        writeToFile('README.md', generateMkdwn(answers)))
+}
 
 // Function call to initialize app
 init();
