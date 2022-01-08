@@ -62,12 +62,12 @@
 
   ## [How to contribute](#contributing)
   If you would like to contribute to this project, follow the steps below.
-      1. Fork the repo on GitHub.
-      2. Clone the project to your own machine.
-      3. Create a branch for your feature work.
-      4. Commit changes to your own branch.
-      5. Push your work back up to your fork.
-      6. Submit a Pull request so that we can review your changes
+  1. Fork the repo on GitHub.
+  2. Clone the project to your machine.
+  3. Create a branch for your feature work.
+  4. Commit the changes to your branch.
+  5. Push your work back up to your fork.
+  6. Submit a pull request. After changes are reviewed, your feature will be merged.
 
   ## [Project Credits](#credits)
 
@@ -77,8 +77,8 @@
   Additional Contributors if any: 
 
   External Assets:
-  [Inquirer package](https://www.npmjs.com/package/inquirer)
-  [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+  - [Inquirer package](https://www.npmjs.com/package/inquirer)
+  - [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
   ## [Have Questions?](#questions)
   Contact the author with your questions:
