@@ -23,8 +23,8 @@
   4. [Testing](#testing)
   5. [How to contribute](#contributing)
   6. [Project Credits](#credits)
-    1. Authors
-    2. Additional Acknowledgements
+      1. Authors
+      2. Additional Acknowledgements
   7. [Have Questions?](#questions)
 
 ## [Installation](#installation)
@@ -62,17 +62,18 @@
 
   ## [How to contribute](#contributing)
   If you would like to contribute to this project, follow the steps below.
-    1. Fork the repo on GitHub.
-    2. Clone the project to your own machine.
-    3. Create a branch for your feature work.
-    3. Commit changes to your own branch.
-    4. Push your work back up to your fork.
-    5. Submit a Pull request so that we can review your changes
+      1. Fork the repo on GitHub.
+      2. Clone the project to your own machine.
+      3. Create a branch for your feature work.
+      4. Commit changes to your own branch.
+      5. Push your work back up to your fork.
+      6. Submit a Pull request so that we can review your changes
 
   ## [Project Credits](#credits)
 
   Project Authors:
-  [!jcwashington](https://github.com/jcwashington)
+  [jcwashington](https://github.com/jcwashington)
+  
   Additional Contributors if any: 
 
   External Assets:
