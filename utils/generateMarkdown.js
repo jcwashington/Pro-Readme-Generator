@@ -64,8 +64,8 @@ function generateMarkdown(data) {
   4. [Testing](#testing)
   5. [How to contribute](#contributing)
   6. [Project Credits](#credits)
-    1. Authors
-    2. Additional Acknowledgements
+      1. Authors
+      2. Additional Acknowledgements
   7. [Have Questions?](#questions)
 
   ## [Installation](#installation)
@@ -87,17 +87,17 @@ function generateMarkdown(data) {
 
   ## [How to contribute](#contributing)
   If you would like to contribute to this project, follow the steps below.
-    1. Fork the repo on GitHub.
-    2. Clone the project to your own machine.
-    3. Create a branch for your feature work.
-    3. Commit changes to your own branch.
-    4. Push your work back up to your fork.
-    5. Submit a Pull request so that we can review your changes
+  1. Fork the repo on GitHub.
+  2. Clone the project to your own machine.
+  3. Create a branch for your feature work.
+  3. Commit changes to your own branch.
+  4. Push your work back up to your fork.
+  5. Submit a Pull request so that we can review your changes
 
   ## [Project Credits](#credits)
 
   Project Authors:
-  [!${data.username}](https://github.com/${data.username})
+  [${data.username}](https://github.com/${data.username})
   Additional Contributors if any: ${data.contributors}
 
   External Assets:
