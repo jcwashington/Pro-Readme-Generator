@@ -17,6 +17,8 @@ function renderLicenseBadge(license) {
     return "[![License: Apache](https://img.shields.io/badge/license-Apache-yellow)](https://opensource.org/licenses/Apache-2.0)"
   } else if (license === "Boost") {
     return "[![License: Boost](https://img.shields.io/badge/license-Boost-orange)](https://opensource.org/licenses/BSL-1.0)"
+  } else if (license === "ISC")  {
+    return "[![License: ISC](https://img.shields.io/badge/license-ISC-orange)](https://choosealicense.com/licenses/isc/)"
   } else{
     return ' '
   }

@@ -74,7 +74,7 @@ const questions = [
         name: "license",
         message: "Please select the license you used for this project.",
         choices: [
-          "GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla", "MIT", "Apache", "Boost"
+          "GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla", "MIT", "Apache", "Boost", "ISC"
         ]
     },
     // Testing
